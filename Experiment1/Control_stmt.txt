@@ -1,0 +1,24 @@
+ *** if Statements  *** 
+
+Perhaps the most well-known statement type is the if statement. For example in Control_stmt.py
+if statements are control flow statements which helps us to run a particular code only when a certain condition is satisfied.
+For example, you want to print a message on the screen only when a condition is true then you can use if statement to accomplish this in programming.
+In this guide, we will learn how to use if statements in Python programming with the help of examples.
+
+ *** Python for Statements  *** 
+
+The for statement in Python differs a bit from what you may be used to in C or Pascal.
+Rather than always iterating over an arithmetic progression of numbers (like in Pascal),
+or giving the user the ability to define both the iteration step and halting condition (as C),
+Python’s for statement iterates over the items of any sequence (a list or a string),
+in the order that they appear in the sequence. For example in Control_stmt.py
+
+ *** Python while Statements  ***  
+    
+The flow of execution for a while statement works like this:
+Evaluate the condition (BOOLEAN EXPRESSION), yielding False or True.
+If the condition is false, exit the while statement and continue execution at the next statement.
+If the condition is true, execute each of the STATEMENTS in the body and then go back to step 1.
+The body consists of all of the statements below the header with the same indentation.
+The body of the loop should change the value of one or more variables so that eventually the condition becomes false and the loop terminates.
+Otherwise the loop will repeat forever, which is called an infinite loop.
