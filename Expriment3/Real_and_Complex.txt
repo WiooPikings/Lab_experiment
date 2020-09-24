@@ -1,0 +1,31 @@
+NumPy contains a large number of various mathematical operations. NumPy provides standard trigonometric functions, functions for
+arithmetic operations, handling complex numbers
+Numpy library gives us functions such as real() and imag() to find real and imaginary parts of a complex number. 
+    real() : To find real part of the complex number
+    imag() : To find imaginary part of the complex number
+
+The cmath module
+
+Mathematical functions defined in math module of Python’s standard library process floating point numbers. For complex numbers, Python library contains cmath module.
+
+Complex number z = x+yj is a Cartesian representation. It is internally represented in polar coordinates with its modulus r (as returned 
+by built-in abs() function) and the phase angle Φ (pronounced as phi) which is counterclockwise angle in radians, between the x axis 
+and line joining x with the origin. Following diagram illustrates polar representation of complex number −
+Functions in cmath module allow conversion of Cartesian representation to polar representation and vice versa.
+
+polar() − This function returns polar representation of a Cartesian notation of complex number.The return value is a tuple consisting 
+          of modulus and phase.
+          
+phase() − This function returns counterclockwise angle between x axis and segment joining a with origin. The angle is represented in 
+          radians and is between π and -π
+          
+rect() − This function returns Cartesian representation of complex number represented in polar form i.e. in modulus and phase
+
+cmath.sin() − This function returns the sine trigonometric ratio for phase angle represented in radians.Similarly, functions for other 
+              ratios cos(), tan(), asin(), acos() and atan() are defined in cmath module.
+
+cmath.exp() − Similar to math.exp(), this function returns ex where x is a complex number and e is 2.71828
+
+cmath.log10() − This function calculates log value of complex number taking base as 10
+
+cmath.sqrt() − This function returns square root of complex number.
