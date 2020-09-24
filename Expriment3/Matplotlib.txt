@@ -1,0 +1,23 @@
+Matplotlib is the most popular plotting library in python. Using matplotlib, you can create pretty much any type of plot. However, as your plots get more 
+complex, the learning curve can get steeper.
+
+The goal of this tutorial is to make you understand ‘how plotting with matplotlib works’ and make you comfortable to build full-featured 
+plots with matplotlib.
+
+The following piece of code is found in pretty much any python code that has matplotlib plots.
+
+    import matplotlib.pyplot as plt
+    %matplotlib inline
+
+matplotlib.pyplot is usually imported as plt. It is the core object that contains the methods to create all sorts of charts and features in a plot.
+The %matplotlib inline is a jupyter notebook specific command that let’s you see the plots in the notbook itself.
+Suppose you want to draw a specific type of plot, say a scatterplot, the first thing you want to check out are the methods under plt (type plt and hit tab or type dir(plt) in python prompt).
+Let’s begin by making a simple but full-featured scatterplot and take it from there. Let’s see what plt.plot() creates if you an arbitrary sequence of numbers.
+
+The basic steps to creating plots with matplotlib are:
+1) Prepare data
+2) Create plot
+3) Plot
+4) Customize plot
+5) Save plot
+6) Show plot
