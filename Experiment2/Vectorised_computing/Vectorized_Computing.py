@@ -14,7 +14,7 @@ print(arr3d)
 arr3d[0] = old_values
 print(arr3d)
 
-array(['Bob', 'Joe', 'Will', 'Bob', 'Will', 'Joe', 'Joe'], dtype='<U4')
+names = np.array(['Bob', 'Joe', 'Will', 'Bob', 'Will', 'Joe', 'Joe'], dtype='<U4')
 names == 'Bob'
 
 # Mathenatical application
