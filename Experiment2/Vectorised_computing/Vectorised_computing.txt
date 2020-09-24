@@ -1,0 +1,33 @@
+Using NumPy arrays enables you to express many kinds of data processing tasks as concise array expressions that might otherwise require
+writing loops. This practice of replacing explicit loops with array expressions is commonly referred to as vectorization. In general,
+vectorized array operations will often be one or two (or more) orders of magnitude faster than their pure Python equivalents, with the
+biggest impact in any kind of numerical computations. Later, in Appendix A, I explain broadcasting, a powerful method for vectorizing
+computations.
+
+abs, fabs :	Compute the absolute value element-wise for integer, floating-point, or complex values
+sqrt :	Compute the square root of each element (equivalent to arr ** 0.5)
+square :	Compute the square of each element (equivalent to arr ** 2)
+exp	: Compute the exponent ex of each element
+log, log10, log2, log1p : 	Natural logarithm (base e), log base 10, log base 2, and log(1 + x), respectively
+sign : 	Compute the sign of each element: 1 (positive), 0 (zero), or –1 (negative)
+ceil : 	Compute the ceiling of each element (i.e., the smallest integer greater than or equal to that number)
+floor : 	Compute the floor of each element (i.e., the largest integer less than or equal to each element)
+rint : 	Round elements to the nearest integer, preserving the dtype
+modf : 	Return fractional and integral parts of array as a separate array
+isnan : 	Return boolean array indicating whether each value is NaN (Not a Number)
+isfinite, isinf : 	Return boolean array indicating whether each element is finite (non-inf, non-NaN) or infinite, respectively
+cos, cosh, sin, sinh, tan, tanh :	Regular and hyperbolic trigonometric functions
+arccos, arccosh, arcsin, arcsinh, arctan, arctanh : 	Inverse trigonometric functions
+logical_not	: Compute truth value of not x element-wise (equivalent to ~arr).
+
+add	: Add corresponding elements in arrays
+subtract	: Subtract elements in second array from first array
+multiply	: Multiply array elements
+divide, floor_divide :	Divide or floor divide (truncating the remainder)
+power	 : Raise elements in first array to powers indicated in second array
+maximum, fmax	Element-wise maximum; fmax ignores NaN
+minimum, fmin	Element-wise minimum; fmin ignores NaN
+mod	Element-wise modulus (remainder of division)
+copysign	Copy sign of values in second argument to values in first argument
+greater, greater_equal, less, less_equal, equal, not_equal	: Perform element-wise comparison, yielding boolean array (equivalent to infix operators >, >=, <, <=, ==, !=)
+logical_and, logical_or, logical_xor	: Compute element-wise truth value of logical operation (equivalent to infix operators & |, ^)
